@@ -52,7 +52,7 @@ Create a `.env` file:
 
 ```bash
 BASE_SEPOLIA_RPC_URL=https://sepolia.base.org
-PRIVATE_KEY=your_private_key_here
+PRIVATE_KEY=03cc69063fc9739d172182c4c7a808eef2531a738e8b8d244c0440d4392ecc25
 ETHERSCAN_API_KEY=your_etherscan_api_key_here
 ```
 
