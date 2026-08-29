@@ -8,11 +8,11 @@ contract DeployScript is Script {
     function run() external {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
-        
+
         CommissionEscrow escrow = new CommissionEscrow();
-        
+
         vm.stopBroadcast();
-        
+
         console.log("CommissionEscrow deployed at:", address(escrow));
     }
 }
